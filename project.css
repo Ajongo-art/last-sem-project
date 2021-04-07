@@ -1,0 +1,123 @@
+body {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 20px;
+	line-height: 1.2;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+header {
+	background: rgb(170, 195, 198);
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: red solid 5px;
+}
+header a {
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+header ul {
+	margin: 0;
+	padding: 0;
+}
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #hospital {
+	float: left;
+}
+header #hospital h1 {
+	margin: 0;
+}
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+header .highlight,
+header .current a {
+	color: red;
+	font-weight: bold;
+}
+header a:hover {
+	color: darkblue;
+	font-weight: bold;
+}
+#tour {
+	min-height: 200px;
+	background: url('../crash/pexels9.jpeg');
+	text-align: center;
+	color: #ffffff;
+}
+#tour {
+	margin-top: 30pxpx;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+#tour p {
+	font-size: 25px;
+}
+#abc {
+	padding-bottom: 25px;
+	color: #ffffff;
+	background-color: rgb(70, 95, 198);
+}
+#abc h1 {
+	float: left;
+}
+#abc form {
+	float: right;
+	margin-top: 30px;
+}
+.button {
+	height: 38px;
+	background-color: saddlebrown;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: 0;
+	color: #ffffff;
+}
+#pics {
+	margin-top: 20px;
+}
+#pics .box {
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 50px;
+}
+#pics .box img {
+	width: 400px;
+}
+.ground {
+	padding: 20px;
+	background: #333244;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+aside#sidebar {
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+article#media {
+	float: left;
+	width: 65%;
+}
+footer {
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: cyan;
+	font-weight: bold;
+}
